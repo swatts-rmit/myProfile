@@ -1,0 +1,323 @@
+body {
+  background-color: #9d8189;
+  font-family: 'Dosis', 'Arimo', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 2em;
+  color: #f4acb7;
+}
+
+h2 {
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  color: #f4acb7;
+}
+
+h3 {
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #ffcad4;
+  margin-bottom: 3px;
+}
+
+a, a:hover {
+  color: #d8e2dc;
+}
+
+img.headshot {
+  width: 150px;
+  height: auto;
+}
+
+#pageHeader {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid #f4acb7;
+  border-top: 2px solid #f4acb7;
+}
+
+#pageHeaderLeft {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+#pageHeaderMiddle {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#pageHeaderRight {
+  width: 33.33%;
+  position: relative;
+  float: left;
+}
+
+#pageHeaderContactDetails {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #d8e2dc;
+}
+
+#navBar {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1px solid #f4acb7;
+  border-bottom: 1px solid #f4acb7;
+  background-color: #9d8189;
+}
+
+#navBar li {
+  float: left;
+}
+
+#navBar li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navBar li a:hover:not(.navBarActive) {
+  background-color: #f4acb7;
+}
+
+.navBarActive {
+  background-color: #f4acb7;
+}
+
+/* html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,address,cite,code,em,image,q,strong,sub,ol,ul,li,caption,article,aside,figure,figcaption,footer,header{
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align: baseline;
+}
+
+#mainDetailsTableLeft {width:200px; border-bottom:2px solid #f4acb7; border-top:2px solid #f4acb7;}
+
+article, aside, details,figcaption, figure, footer, header, hgroup, menu,nav, section{
+  display: block;
+}
+
+html, body{ background-color: #9d8189; font-family: 'Dosis', 'Arimo', Arial, Helvetica,sans-serif; font-size: 15px; color: #ffffff;}
+
+.clear {
+  clear:both;
+}
+
+p{
+  font-size:1em;
+  line-height:1.5em;
+  margin-bottom: 20px;
+  color:#ffffff;
+}
+
+a{
+  color: #d8e2dc;
+}
+
+img.headshot {
+  height: 75%;
+  width: 75%;
+}
+
+img.jobAdSeek {
+  height: 50%;
+  width: 50%;
+}
+
+img.advocate {
+  height: 50%;
+  width: 50%;
+}
+
+#cv{
+  width:90%;
+  max-width:900px;
+  background:#9d8189;
+  margin:30px auto;
+}
+.mainDetails {
+  padding: 25px 35px;
+  border-bottom: 2px solid ##f4acb7;
+  background:#9d8189;
+}
+
+#name h1{
+  font-size:2.5em;
+  font-weight: 600;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  margin-bottom: -6px;
+  color: #f4acb7;
+}
+#name h2{
+  font-size:2em;
+  color: #f4acb7;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  margin-left: 2px;
+}
+
+#name h3{
+  font-size:1.5em;
+  color: #f4acb7;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  margin-left: 2px;
+}
+
+#mainArea {
+  padding: 0 40px;
+}
+
+#headshot{
+  width: 100%;
+  float:left;
+  margin-right:30px;
+}
+#headshot image {
+  width: 100%;
+  height: auto;
+}
+
+#jobAdSeek{
+  width: 50%;
+  float:left;
+  margin-right:20px;
+}
+#jobAdSeek image {
+  width: 50%;
+  height: auto;
+}
+
+#advocate{
+  width: 100%;
+  float:left;
+  margin-right:20px;
+}
+#advocate image {
+  width: 50%;
+  height: auto;
+}
+#name {
+  float: right;
+}
+
+#contactDetails {
+  float: right;
+}
+
+#contactDetails ul{
+  list-style-type: none;
+  font-size: 1em;
+  margin-top: 2px;
+}
+
+#contactDetails ul li{
+  margin-bottom: 4px;
+  color: #d8e2dc;
+}
+
+#contactDetails ul li a:hover {
+  color: #d8e2dc;
+}
+
+section{
+  border-top: 1px solid ##f4acb7;
+  padding:20px 0 0;
+}
+
+section:first-child {
+  border-top: 0;
+}
+section:last-child {
+  float: right;
+  width: 22.5%;
+}
+.sectionTitle {
+  float: left;
+  width: 25%;
+}
+.sectionContent{
+  float:right;
+  width: 72.5%;
+}
+.sectionTitle h1{
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  color: #f4acb7;
+}
+
+.sectionTitle h2{
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  color: #f4acb7;
+}
+
+.sectionTitle image{
+  width: 50%;
+}
+
+.sectionContent h2{
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  color: #ffcad4;
+  margin-bottom: -2px;
+}
+
+.sectionContent h3{
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #ffcad4;
+  margin-bottom: 3px;
+}
+
+.sectionContent image {
+  border: 2px solid:#ffcad4;
+}
+
+.subDetail {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.keyskills {
+  list-style-type: none;
+  column-count:3;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #ffcad4
+}
+
+.keySkills ul li {
+  margin-bottom: 3px;
+}
+*/
